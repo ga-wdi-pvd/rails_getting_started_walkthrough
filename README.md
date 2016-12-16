@@ -7,7 +7,7 @@ We are breaking the [Rails Getting Started Guide](http://guides.rubyonrails.org/
  1. Hello World - Intro to rails and build first Rails app (Section 1...3, also covered with [Intro to Rails lesson](https://github.com/ga-wdi-pvd/http-mvc-intro-rails))
  2. Starting a Blog with Rails (sections 3...5.7 of Rails Guide - Getting Started)
  3. Finishing up Blog with Rails, adding 2nd model and associations (Section 5.7...7)
- 3.5 Dry up code with partials and deleting associations (sections 7...9)
+ 4. (Stretch) Dry up code with partials and deleting associations; add basic auth (sections 7...10)
  
 ## Learning Objectives (ALL)
 
@@ -36,7 +36,7 @@ We are breaking the [Rails Getting Started Guide](http://guides.rubyonrails.org/
  - Use application layout to structure rendered views
  - DRY up rails code by using partials in forms and 'new' action
  - Refactor and DRY up even more: use partials in the show/index action
- - Utilize Rails strong parameters to address the mass assignment vulnerability
+ - Describe how you can secure your app with Rails, and implement these methods in your blog
 
 ## Framing
 
@@ -46,11 +46,32 @@ By the end of this unit, you will have a fully functioning database-backed blog 
 
 ## Review
 
-- What Rails helper do we use to create a form?
-- What is strong params and why do we use it to create/update?
-- What is a partial? Why is it helpful?
-- What is the file naming convention for a partial?
-- How do we indicate that we are using a partial in a view?
+ - What Rails helper do we use to create a form that is model-backed?
+ - What is strong params and why do we use it to create/update?
+ - What is a partial? Why is it helpful?
+ - What is the file naming convention for a partial?
+ - How do we indicate that we are using a partial in a view?
+ - Describe the role of a web framework such as Rails
+ - Describe the components of an MVC application
+ - Diagram & annotate the lifecycle of an HTTP request in Ruby on Rails
+ - Explain how Ruby on Rails implements MVC
+ - Create a Rails application that displays "Hello Rails!" 
+ - Where do we place the javascript and css of our rails application?
+ - How might we drop into a debugging console during view execution? During controller execution? What debugger comes default with Rails?
+ - What command allows us to create a new rails app with postgres as our default database?
+ - Explain why you would or would not use sqlite3 (the Rails default)
+ - Explore the available Rake commands. Which commands allow us to create, seed and drop a database?
+ - How do we write a migration that creates a table with attributes, from the command line?
+ - Is it possible to write multiple migrations in one migration file? How do we add a column and remove a column in one migration file?
+ - Inspect and Manipulate Rails models using the Rails console
+ - Describe the full life cycle of a request/response in Rails
+ - Describe how Rails implements the MVC pattern?
+ - What does the 'resources' keyword do in the routes.rb file?
+ - How do you setup a delete link and route?
+ - How do you setup a form_for method so a models' association is created?
+ - Where do you add common view elements so all your views can share them?
+ - Describe methods available to you to secure your Rails app, and talk through implementing these methods
+  - http_basic_auth, strong parameters, validations
 
 ## Homework
 - [Scribble](https://github.com/ga-wdi-pvd/scribble)
