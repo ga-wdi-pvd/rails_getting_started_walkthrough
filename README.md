@@ -1,6 +1,6 @@
 # Rails Getting Started Walkthrough
 
-(previous lessons on Rails: [Intro to Rails, MVC and HTTP](https://github.com/ga-wdi-pvd/http-mvc-intro-rails), [Rails Index Show](https://github.com/ga-wdi-pvd/rails_features_CRD/blob/master/index_show.md))
+(previous lessons on Rails: [Intro to Rails, MVC and HTTP](https://github.com/ga-wdi-pvd/http-mvc-intro-rails), [Rails CRUD](https://github.com/ga-wdi-pvd/rails_features_CRD), [Rails Index Show](https://github.com/ga-wdi-pvd/rails_features_CRD/blob/master/index_show.md))
 
 We are breaking the [Rails Getting Started Guide](http://guides.rubyonrails.org/getting_started.html) into 3 sections so developers get a step-by-step walkthrough for the most up to date version of Rails. They will create a fully functioning blog, complete with validations, associations and exposure to many features which make Rails a joy to work with:
 
