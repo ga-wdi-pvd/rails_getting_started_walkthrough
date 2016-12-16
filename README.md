@@ -28,7 +28,6 @@ We are breaking the [Rails Getting Started Guide](http://guides.rubyonrails.org/
  - Inspect and Manipulate Rails models using the Rails console
  - Describe the full life cycle of a request/response in Rails
  - Implement a working Model View Controller pattern in Rails
- 
  - Create objects by using RESTful routes and the MVC pattern in Rails
  - Delete objects using RESTful routes in Rails
 
@@ -46,21 +45,19 @@ Why reinvent the wheel? Let's use the tried-and-true Rails Getting Started guide
 By the end of this unit, you will have a fully functioning database-backed blog application, complete with articles and associated comments.
 
 ## Review
-(part 1)
 
-(part 2)
-What Rails helper do we use to create a form?
-What is strong params and why do we use it to create/update?
-What is a partial? Why is it helpful?
-What is the file naming convention for a partial?
-How do we indicate that we are using a partial in a view?
+- What Rails helper do we use to create a form?
+- What is strong params and why do we use it to create/update?
+- What is a partial? Why is it helpful?
+- What is the file naming convention for a partial?
+- How do we indicate that we are using a partial in a view?
 
 ## Homework
 - [Scribble](https://github.com/ga-wdi-pvd/scribble)
 - Finish any of the Getting Started guide that we did not get to
 
 ## Resources
-[Rails Guide - Getting Started](http://guides.rubyonrails.org/getting_started.html)
-[Rails Guide - Form Helpers)(http://guides.rubyonrails.org/form_helpers.html#dealing-with-model-objects)
-[Rails Guide - AR Migrations](http://edgeguides.rubyonrails.org/active_record_migrations.html)
-[WDI DC Lesson - Rails New Create Destroy](https://github.com/ga-wdi-pvd/rails_features_CRD/blob/master/new_create_destroy.md)
+- [Rails Guide - Getting Started](http://guides.rubyonrails.org/getting_started.html)
+- [Rails Guide - Form Helpers](http://guides.rubyonrails.org/form_helpers.html#dealing-with-model-objects)
+- [Rails Guide - AR Migrations](http://edgeguides.rubyonrails.org/active_record_migrations.html)
+- [WDI DC Lesson - Rails New Create Destroy](https://github.com/ga-wdi-pvd/rails_features_CRD/blob/master/new_create_destroy.md)
